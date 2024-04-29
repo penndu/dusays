@@ -3,6 +3,7 @@ name: NPM Package Sync
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
  
 jobs:
   sync-npm:
